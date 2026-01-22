@@ -6,6 +6,7 @@ import { defineConfig } from "vite"
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: "/News-portal_mern/",
   server:{
     port:5173,
     proxy:{
